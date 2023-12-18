@@ -24,6 +24,7 @@
 .Weather ul {
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;
 
 }
 
@@ -38,11 +39,12 @@
 
 .weather-info {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .temperature-info {
-    margin-left: 10px; 
+    margin-left: 10px;
+   
 }
 
 
@@ -61,6 +63,6 @@
     position: relative;
     line-height: 1;
     top: -28px;
-    margin-left: 3px;
+    margin-left: 1px;
 
 }
